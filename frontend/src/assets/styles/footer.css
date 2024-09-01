@@ -1,0 +1,125 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 15px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #f4f4f4;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+/* Form style */
+
+.form-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.button-box {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width:20px;
+  position: relative;
+}
+
+.indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 5px;
+  background-color: #000;
+  transition: transform 0.5s ease;
+}
+
+.login-form,
+.register-form {
+  position: absolute;
+  transition: transform 0.5s ease;
+  top: 50px; /* Adjust this as necessary */
+  left: 0;
+  width: 100%;
+}
+
+.login-form input,
+.register-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #555; /* Highlight the active button */
+}
+
+button:hover {
+  background-color: #333;
+}

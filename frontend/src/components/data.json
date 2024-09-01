@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "name": "Flat Heel Gray Shoes",
+      "price": "$50.00",
+      "rating": 4.5,
+      "image": "images/product-5.jpg"
+    },
+    {
+      "name": "Lace-Fastening Black Shoes",
+      "price": "$21.00",
+      "rating": 4.5,
+      "image": "images/product-3.jpg"
+    },
+    {
+      "name": "HRX Men's Cotton Socks",
+      "price": "$09.00",
+      "rating": 4.0,
+      "image": "images/product-7.jpg"
+    },
+    {
+      "name": "Lace-Up Running Shoes",
+      "price": "$35.00",
+      "rating": 4.0,
+      "image": "images/product-2.jpg"
+    },
+    {
+      "name": "HRX Cotton Socks",
+      "price": "$10.00",
+      "rating": 4.0,
+      "image": "images/product-7.jpg"
+    },
+    {
+      "name": "Flat Lace-Fastening Shoes",
+      "price": "$48.00",
+      "rating": 4.5,
+      "image": "images/product-10.jpg"
+    },
+    {
+      "name": "Loafers Men (Gray)",
+      "price": "$15.00",
+      "rating": 4.0,
+      "image": "images/product-11.jpg"
+    },
+    {
+      "name": "Lace-Fastening White Shoes",
+      "price": "$21.00",
+      "rating": 4.0,
+      "image": "images/product-12.jpg"
+    }
+  ],
+  "latestProduct": [
+    {
+      "name": "Flat Heel gray shoes",
+      "image": "images/product-5.jpg",
+      "rating": 3.5,
+      "price": "$50.00",
+      "details_link": "products-details.html"
+    },
+    {
+      "name": "Lace-Fastening black Shoes",
+      "image": "images/product-3.jpg",
+      "rating": 4.5,
+      "price": "$21.00",
+      "details_link": "products-details.html"
+    },
+    {
+      "name": "HRX Men's cotton socks",
+      "image": "images/product-7.jpg",
+      "rating": 4.0,
+      "price": "$09.00",
+      "details_link": "products-details.html"
+    },
+    {
+      "name": "Lace-Up Running Shoes",
+      "image": "images/product-2.jpg",
+      "rating": 3.0,
+      "price": "$35.00",
+      "details_link": "products-details.html"
+    }
+  ]
+}

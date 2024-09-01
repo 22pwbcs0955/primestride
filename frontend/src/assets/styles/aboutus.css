@@ -1,0 +1,96 @@
+/* src/components/AboutUs.css */
+.about-us-container {
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .main-title {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #666;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    width:'100%';
+    margin-bottom: 50px;
+  }
+  
+  .about-image {
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+  }
+  
+  .info-card {
+    flex: 1;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0 80px;
+  }
+  
+  .info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .info-text {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 10px;
+  }
+  
+  /* Optional: Basic media query for smaller screens */
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .info-card {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
